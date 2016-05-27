@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica-Neue", "Helvetica", helvetica, Arial, sans-serif;
+}
+
+#everything {
+  background-color: #FCB82B;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.absolute-full {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.relative-full {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#header-outer {
+  z-index: 100;
+  background-color: white;
+  position: fixed;
+  height: 50px;
+  line-height: 50px;
+  width: 100vw;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#header-logo {
+  position: absolute;
+  left: 5px;
+  height: 40px;
+  width: auto;
+  top: 5px;
+}
+
+#header-title {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  position: absolute;
+  font-size: 20px;
+  height: 20px;
+  font-weight: 900;
+  left: 55px;
+  top: -10px;
+}
+
+#horizontal-br {
+  position: absolute;
+  background-color: #FCB82B;
+  height: 1px;
+  width: 150px;
+  top: 26px;
+  left: 55px;
+}
+
+#header-subtitle {
+  font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+  position: absolute;
+  font-size: 15px;
+  height: 15px;
+  font-weight: 400;
+  color: #555;
+  left: 55px;
+  top: 10px;
+}
+
+#header-links {
+  width: auto;
+  position: absolute;
+  height: 100%;
+  line-height: 50px;
+  right: 0;
+  top: 0;
+}
+
+#header-links > a {
+  font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: 400;
+  color: #555;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+}
+
+#header-links > a:hover {
+  color: #A16C02;
+}
+
+#content-outer {
+  top: 50px;
+  background-color: #fff;
+  width: 90%;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+#intro-head {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#face {
+  height: 235px;
+  width: 235px;
+  border-radius: 100%;
+  margin: 25px;
+  border: 15px solid #FCB82B;
+}
+
+#title {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  text-align: left;
+  width: 50%;
+  max-width: 50%;
+}
+
+hr {
+  height: 1px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #FCB82B;
+  outline: 0;
+  border: 0;
+}
+
+h1 {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+h2 {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+h3 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 20px;
+  color: #333;
+  text-align: center;
+}
+h4 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: #555;
+  margin: 20px;
+  margin-top: 40px;
+}
+h6 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #888;
+  margin: 20px;
+}
+#content-outer p {
+  margin: 20px;
+}
+
+#footer {
+  background-color: #FEE3AF;
+  width: 100vw;
+  height: 350px;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  margin-top: -50px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#footer-logo {
+  left: 10px;
+  bottom: 10px;
+  height: 150px;
+  width: auto;
+  position: absolute;
+}
+
+#noahfiner-outer {
+  height: 25px;
+  width: auto;
+  position: absolute;
+  right: 50px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#noahfiner-outer > a > img {
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+}
+
+#noahfiner-outer > p {
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+}
