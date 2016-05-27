@@ -44,6 +44,7 @@
 #header-title {
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
   position: absolute;
+  color: black;
   font-size: 20px;
   height: 20px;
   font-weight: 900;
@@ -110,6 +111,19 @@
   z-index: 10;
 }
 
+#intro-outer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#intro-outer > h1 {
+  font-size: 70px;
+}
+
 #intro-head {
   width: 90%;
   margin-left: auto;
@@ -133,7 +147,7 @@
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
   font-size: 60px;
   text-align: left;
-  width: 50%;
+  width: auto;
   max-width: 50%;
 }
 
@@ -147,6 +161,14 @@ hr {
   background-color: #FCB82B;
   outline: 0;
   border: 0;
+}
+
+ul, ol {
+  padding: 20px;
+}
+
+li {
+  margin-top: 10px;
 }
 
 h1 {
@@ -255,12 +277,12 @@ h6 {
   color: #FCB82B;
 }
 
-#email {
+.footer-link {
   color: #FCB82B;
   transition: color 0.25s;
 }
 
-#email:hover {
+.footer-link:hover {
   color: #DD9403;
 }
 
@@ -284,4 +306,10 @@ h6 {
   color: #FCB82B;
   font-weight: 300;
   font-size: 15px;
+}
+
+#map {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
