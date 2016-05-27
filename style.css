@@ -158,7 +158,10 @@ hr {
     border-top: medium double #FCB82B;
     color: #FCB82B;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
+
 hr:after {
     content: "\00A7";
     display: inline-block;
