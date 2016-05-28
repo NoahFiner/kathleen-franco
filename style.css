@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica-Neue", "Helvetica", helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica-Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 #everything {
@@ -42,7 +42,7 @@
 }
 
 #header-title {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
   position: absolute;
   color: black;
   font-size: 20px;
@@ -62,7 +62,7 @@
 }
 
 #header-subtitle {
-  font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+  font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", Helvetica, sans-serif;
   position: absolute;
   font-size: 15px;
   height: 15px;
@@ -82,7 +82,7 @@
 }
 
 #header-links > a {
-  font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+  font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", Helvetica, sans-serif;
   vertical-align: middle;
   text-decoration: none;
   font-weight: 400;
@@ -145,7 +145,7 @@
 }
 
 #title {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 60px;
   text-align: left;
   width: auto;
@@ -193,17 +193,17 @@ li {
 }
 
 h1 {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 50px;
   text-align: center;
 }
 h2 {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 35px;
   text-align: center;
 }
 h3 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Helvetica, sans-serif;
   font-size: 25px;
   font-weight: 900;
   margin: 20px;
@@ -283,7 +283,7 @@ h6 {
 }
 
 #footer-name {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 50px;
   margin: 0;
   height: 22px;
@@ -291,7 +291,7 @@ h6 {
 }
 
 #footer-contact {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 900;
   margin: 0;
