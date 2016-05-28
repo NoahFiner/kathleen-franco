@@ -4,6 +4,10 @@
   font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica-Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
+body {
+  background-color: #FEE3AF;
+}
+
 #everything {
   background-color: #FCB82B;
   overflow-x: hidden;
@@ -42,7 +46,7 @@
 }
 
 #header-title {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, 'Arial Narrow', Arial, sans-serif;
   position: absolute;
   color: black;
   font-size: 20px;
@@ -62,7 +66,7 @@
 }
 
 #header-subtitle {
-  font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", Helvetica, sans-serif;
+  font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", 'Arial Narrow', Arial, Helvetica, sans-serif;
   position: absolute;
   font-size: 15px;
   height: 15px;
@@ -85,8 +89,8 @@
   font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", Helvetica, sans-serif;
   vertical-align: middle;
   text-decoration: none;
-  font-weight: 400;
-  color: #555;
+  font-weight: 900;
+  color: #FCB82B;
   font-size: 15px;
   margin-left: 10px;
   margin-right: 10px;
@@ -95,7 +99,7 @@
 }
 
 #header-links > a:hover {
-  color: #A16C02;
+  color: #DD9403;
 }
 
 #content-outer {
@@ -145,7 +149,7 @@
 }
 
 #title {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, 'Arial Narrow', Arial, sans-serif;
   font-size: 60px;
   text-align: left;
   width: auto;
@@ -193,12 +197,12 @@ li {
 }
 
 h1 {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
   text-align: center;
 }
 h2 {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, 'Arial Narrow', Arial, sans-serif;
   font-size: 35px;
   text-align: center;
 }
@@ -241,7 +245,7 @@ h6 {
 
 #footer-links {
   position: absolute;
-  right: 10px;
+  right: 27px;
   bottom: 10px;
   height: 150px;
 }
@@ -283,7 +287,7 @@ h6 {
 }
 
 #footer-name {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
   margin: 0;
   height: 22px;
@@ -311,7 +315,7 @@ h6 {
   height: 25px;
   width: auto;
   position: absolute;
-  right: 5px;
+  right: 22px; /* 5px + 17px (scrollbar width) */
   bottom: 5px;
   display: flex;
   align-items: center;
