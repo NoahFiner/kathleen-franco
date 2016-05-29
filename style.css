@@ -29,6 +29,7 @@ body {
 
 #header-outer {
   z-index: 100;
+  overflow: visible;
   background-color: white;
   position: fixed;
   height: 50px;
@@ -54,6 +55,7 @@ body {
   font-weight: 900;
   left: 55px;
   top: -10px;
+  white-space: nowrap;
 }
 
 #horizontal-br {
@@ -80,14 +82,15 @@ body {
   width: auto;
   position: absolute;
   height: 100%;
-  line-height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
   right: 0;
   top: 0;
 }
 
 #header-links > a {
   font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", Helvetica, sans-serif;
-  vertical-align: middle;
   text-decoration: none;
   font-weight: 900;
   color: #FCB82B;
@@ -100,6 +103,11 @@ body {
 
 #header-links > a:hover {
   color: #DD9403;
+}
+
+#hamburger {
+  display: none;
+  pointer-events: none;
 }
 
 #content-outer {
@@ -245,6 +253,7 @@ h6 {
 
 #footer-links {
   position: absolute;
+  display: block;
   right: 27px;
   bottom: 10px;
   height: 150px;
@@ -337,4 +346,119 @@ h6 {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media(max-width: 844px) {
+  #header-outer {
+    height: 100px;
+  }
+
+  #content-outer {
+    top: 100px;
+  }
+
+  #header-logo {
+    height: 90px;
+  }
+
+  #header-title {
+    font-size: 40px;
+    height: 20px;
+    top: 7px;
+    left: 110px;
+  }
+
+  #horizontal-br {
+    top: 52px;
+    width: 300px;
+    left: 110px;
+  }
+
+  #header-subtitle {
+    font-size: 30px;
+    height: 30px;
+    top: 42px;
+    left: 110px;
+  }
+
+  #header-links {
+    border-top: 2px solid #aaa;
+    flex-wrap: wrap;
+    align-items: baseline;
+    width: 100vw;
+    margin: 0;
+    height: 244px;
+    margin-top: 100px;
+    pointer-events: auto;
+  }
+
+  #header-links.hidden > a {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #header-links.hidden {
+    pointer-events: none;
+  }
+
+  #header-links > a {
+    opacity: 1;
+    pointer-events: auto;
+    margin: 0 !important;
+    text-align: right;
+    display: block;
+    font-size: 40px;
+    padding: 5px;
+    padding-right: 25px;
+    height: 50px;
+    width: 100vw;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.25s, background-color 0.25s, opacity 0.25s;
+    -webkit-transition: color 0.25s, background-color 0.25s, opacity 0.25s;
+  }
+
+  #header-links > a:hover {
+    background-color: #FEEAC3;
+    color: #DD9403;
+  }
+
+  #footer-links {
+    display: none;
+  }
+
+  #hamburger {
+    pointer-events: auto;
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 5px;
+    right: 25px;
+    height: 50px;
+    width: 50px;
+    top: 25px;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url('img/close.png');
+    transition: background-image 0.25s, background-color 0.25s;
+    -webkit-transition: background-image 0.25s, background-color 0.25s;
+  }
+
+  #hamburger.menu { /* unintentional pun */
+    background-image: url('img/hamburger.png');
+  }
+
+  #hamburger:hover {
+    background-color: #FEF1D7;
+  }
+}
+
+@media(max-width: 600px) {
+  #footer-name {
+    display: none;
+  }
+
+  #footer-contact {
+    bottom: 30px;
+  }
 }
